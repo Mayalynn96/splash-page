@@ -1,4 +1,86 @@
-*{
-    background-color: lightpink;
+body {
+    background-color: rgb(238, 210, 214);
     font-family: 'Lucida Sans', Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    padding: 10px;
+    background-color: rgb(130, 85, 100);
+    width: 100%;
+    height: 40px;
+    list-style-type: none;
+    text-align: right;
+    border-bottom: 10px solid rgb(193, 130, 167);
+    position: fixed;
+}
+
+header ul li {
+    display: inline;
+    padding: 0 10px;
+    color: rgb(72, 13, 57);
+    font-weight: bolder;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(72, 13, 57);
+}
+
+main {
+    margin-top: 80px;
+    width: 100%;
+    display: inline-block;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin: 20px;
+}
+
+img {
+    display: block;
+    margin: 10px auto;
+    max-width: 500px;
+}
+
+main p {
+    display: block;
+    margin: 20px auto;
+    text-align: justify;
+    max-width: 700px;
+}
+
+#contact {
+    background-color: rgb(174, 154, 170);
+    border-top: 2px solid rgb(72, 63, 70);
+    height: 200px;
+}
+
+h2, form {
+    text-align: center;
+}
+
+form {
+    border: 2px solid rgb(72, 63, 70);
+    display: block;
+    width: 300px;
+    margin: auto;
+    border-radius: 25px;
+}
+
+input {
+    margin: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(130, 85, 100);
+    width: 100%;
+    height: 40px;
+    border-top: 10px solid rgb(193, 130, 167);
 }
